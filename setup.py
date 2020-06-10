@@ -1,5 +1,6 @@
-from distutils.core import setup
-import assertpy
+from setuptools import setup, find_packages
+
+import grxtestassert
 
 desc = """
 assertpy
@@ -38,15 +39,15 @@ Or, if you are a big fan of `conda <https://conda.io/>`_ like we are, there is a
 """
 
 setup(
-    name='assertpy',
-    packages=['assertpy'],
-    version=assertpy.__version__,
+    name='grxtestassert',
+    packages=find_packages(exclude=['tests']),
+    version=grxtestassert.__version__,
     description='Simple assertion library for unit testing in python with a fluent API',
     long_description=desc,
     author='Justin Shacklette',
     author_email='justin@saturnboy.com',
     url='https://github.com/assertpy/assertpy',
-    download_url='https://github.com/assertpy/assertpy/archive/%s.tar.gz' % assertpy.__version__,
+    download_url='https://github.com/assertpy/assertpy/archive/%s.tar.gz' % grxtestassert.__version__,
     keywords=['test', 'testing', 'assert', 'assertion', 'assertthat', 'assert_that', 'nose', 'nosetests', 'pytest', 'unittest'],
     license='BSD',
     classifiers=[

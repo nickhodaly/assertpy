@@ -27,7 +27,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 import math
 
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 
 def test_is_zero():

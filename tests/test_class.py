@@ -28,7 +28,7 @@
 
 import abc
 
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 
 class Person(object):

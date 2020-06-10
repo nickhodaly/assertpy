@@ -33,7 +33,7 @@ import datetime
 import collections
 
 import pytest
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 if sys.version_info[0] < 3:
     def test_snapshot_v2():

@@ -29,7 +29,7 @@
 import sys
 import os
 import datetime
-from assertpy import assert_that, assert_warn, soft_assertions, contents_of, fail
+from grxtestassert import assert_that, assert_warn, soft_assertions, contents_of, fail
 
 
 def setup_module():

@@ -29,7 +29,7 @@
 import sys
 import logging
 
-from assertpy import assert_that, assert_warn, fail, WarningLoggingAdapter
+from grxtestassert import assert_that, assert_warn, fail, WarningLoggingAdapter
 
 
 def test_success():

@@ -26,7 +26,7 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-from assertpy import assert_that, fail, soft_fail, soft_assertions
+from grxtestassert import assert_that, fail, soft_fail, soft_assertions
 
 
 def test_soft_fail_without_context():

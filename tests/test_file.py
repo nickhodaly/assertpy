@@ -30,7 +30,7 @@ import sys
 import os
 import tempfile
 import pytest
-from assertpy import assert_that, contents_of, fail
+from grxtestassert import assert_that, contents_of, fail
 
 
 @pytest.fixture()

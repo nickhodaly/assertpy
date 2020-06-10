@@ -35,6 +35,8 @@ import inspect
 import logging
 import sys
 import types
+
+from .api import ApiMixin
 from .base import BaseMixin
 from .collection import CollectionMixin
 from .contains import ContainsMixin
@@ -362,6 +364,7 @@ class AssertionBuilder(
     DateMixin,
     ContainsMixin,
     CollectionMixin,
+    ApiMixin,
     BaseMixin,
     object
 ):

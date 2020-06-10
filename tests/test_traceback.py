@@ -28,7 +28,7 @@
 
 import sys
 import traceback
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 
 def test_traceback():

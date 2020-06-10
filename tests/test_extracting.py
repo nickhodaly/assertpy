@@ -27,7 +27,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import sys
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 
 class Person(object):

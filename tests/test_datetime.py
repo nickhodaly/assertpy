@@ -27,7 +27,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import datetime
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 d1 = datetime.datetime.today()
 

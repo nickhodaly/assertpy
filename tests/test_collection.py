@@ -29,7 +29,7 @@
 import sys
 import collections
 
-from assertpy import assert_that, fail
+from grxtestassert import assert_that, fail
 
 
 def test_is_iterable():
